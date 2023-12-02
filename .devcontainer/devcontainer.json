@@ -9,7 +9,17 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [4200]
+	"forwardPorts": [
+		4200
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Mikael.Angular-BeastCode",
+				"oderwat.indent-rainbow"
+			]
+		}
+	}
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "yarn install",

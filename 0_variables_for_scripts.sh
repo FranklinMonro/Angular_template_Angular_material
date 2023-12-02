@@ -9,3 +9,4 @@ export princtClear='\x1b[0m'
 
 
 # ng g m home --routing=true --module app.module && ng g c home --no-standalone
+# ng g m home/components --routing=true --module home.module && ng g c home/components --no-standalone
